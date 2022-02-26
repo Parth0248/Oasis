@@ -1,0 +1,411 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 503,
+      "max": [
+        1.0475795269012451,
+        1.0500123500823975,
+        1.0497639179229736
+      ],
+      "min": [
+        -1.0524207353591919,
+        -1.0499875545501709,
+        -1.0300606489181519
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6036,
+      "componentType": 5126,
+      "count": 503,
+      "max": [
+        0.99916160106658936,
+        0.99520528316497803,
+        0.99979090690612793
+      ],
+      "min": [
+        -0.99794614315032959,
+        -0.99911773204803467,
+        -0.99901944398880005
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 503,
+      "max": [
+        0.99989491701126099,
+        0.99999189376831055,
+        0.41095355153083801,
+        1
+      ],
+      "min": [
+        -0.99942368268966675,
+        -1,
+        -0.41313198208808899,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 503,
+      "max": [
+        0.94332557916641235,
+        0.99475336074829102
+      ],
+      "min": [
+        0.16557219624519348,
+        0.0045167207717895508
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2880,
+      "max": [
+        502
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "beestonator (https://sketchfab.com/beestonator)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/6f739b2f5915442089f7163cfe832b3e",
+      "title": "Boulder"
+    },
+    "generator": "Sketchfab-3.29.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11520,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4024,
+      "byteOffset": 11520,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12072,
+      "byteOffset": 15544,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8048,
+      "byteOffset": 27616,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 35664,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "d18dc5e0fe19482db4c3d86db4a88a9c.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        9,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067961387602e-07,
+        -0.99999999999998679,
+        0,
+        0,
+        0.99999999999998679,
+        -1.6292067961387602e-07,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Sphere"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -0.29086456714671755,
+        -0.055189317573633156,
+        -0.95517109650314658,
+        0,
+        -0.56639277599352034,
+        -0.794672338632467,
+        0.21839125414476449,
+        0,
+        -0.77110100525499836,
+        0.60452435856755915,
+        0.19988321884202126,
+        0,
+        -0.87611484527587891,
+        3.6100492477416992,
+        2.3592205047607422,
+        1
+      ],
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        -0.35530125845862326,
+        0.315934644353629,
+        0.87974218736790399,
+        0,
+        0.12945551400069488,
+        0.94871232718590948,
+        -0.28842016250656199,
+        0,
+        -0.9257441793673532,
+        0.011411430350385526,
+        -0.37797816553978869,
+        0,
+        -2.2593436241149902,
+        1.9526858329772949,
+        5.4480199813842773,
+        1
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        -0.29086456714671755,
+        -0.055189317573633156,
+        -0.95517109650314658,
+        0,
+        -0.56639277599352034,
+        -0.794672338632467,
+        0.21839125414476449,
+        0,
+        -0.77110100525499836,
+        0.60452435856755915,
+        0.19988321884202126,
+        0,
+        -1.5726163387298584,
+        0.51453959941864014,
+        2.9997217655181885,
+        1
+      ],
+      "name": "Lamp.001"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

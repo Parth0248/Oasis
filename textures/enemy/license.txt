@@ -1,0 +1,11 @@
+Model Information:
+* title:	WIP Ship
+* source:	https://sketchfab.com/3d-models/wip-ship-0c52f01bf61841c29a27d69ade09e29b
+* author:	Thomas Andris (https://sketchfab.com/thomas005)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WIP Ship" (https://sketchfab.com/3d-models/wip-ship-0c52f01bf61841c29a27d69ade09e29b) by Thomas Andris (https://sketchfab.com/thomas005) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

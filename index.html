@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="textures/ship.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oasis</title>
+    <style>
+      body{
+        overflow: hidden;
+        margin: 0;   
+      }
+      #scoreboard {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      width: 100%;
+      z-index: 100;
+      font-size: 25px;
+      color: white;
+      display: block;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+			<img src="textures/play.png" id="mus-icon" style="position: absolute; cursor: pointer; width: 30px; right : 20px; top: 20px;" >
+		  </div>
+
+		<audio id="mysong">
+			<source src="textures/music.mp3" type="audio/mp3">
+		</audio>
+    <div id="container"></div>
+    <div id="scoreboard">
+      HEALTH: 3 &emsp; SCORE: 0 &emsp; TIME: 0
+    </div>
+    <script type="module" src="/ocean.js"></script>
+    <script src="http://sole.github.io/tween.js/build/tween.min.js"></script>
+  </body>
+</html>
